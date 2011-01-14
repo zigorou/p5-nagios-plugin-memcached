@@ -1,9 +1,10 @@
-Revision history for Nagios-Plugins-Memcached
+Revision history for Perl extension Nagios::Plugin::Memcached
 
-0.02  2007-12-11 17:04
-  * Fixed for RT#31354 (http://rt.cpan.org//Ticket/Display.html?id=31354)
-  * Fixed for RT#29894 (http://rt.cpan.org/Public/Bug/Display.html?id=29894)
-
-0.01  2007-07-17 12:24
-  * First version
+0.01    Fri Jan 14 11:35:31 2011
+        - Copy from Nagios-Plugins-Memcached
+        - fixed #43147. rename to Nagios::Plugin::Memcached (PATCH)
+        - fixed #43533, #56702. command description was wrong
+        - fixed #47244, #54971. changed uom format.
+        - fixed #46498. Allowed zero threshold.
+        - Add --check-setget option
 
